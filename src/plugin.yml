@@ -1,6 +1,6 @@
 name: DeluxeWithdrawGamePointsAddon
 main: dev.norska.dwaddon.gp.GPAddon
-version: Build 1
+version: Build 2
 author: Norska
 website: "https://norska.dev"
 api-version: 1.13

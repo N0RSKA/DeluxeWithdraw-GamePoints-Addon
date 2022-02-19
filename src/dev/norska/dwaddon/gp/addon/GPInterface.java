@@ -91,4 +91,10 @@ public class GPInterface implements DWAddonInterface {
 		return GPAddon.getInstance().getNHandler().getCacheHandler().getCommands();
 	}
 
+	@Override
+	public void reloadConfiguration() {
+		GPAddon.getInstance().generateFiles();
+		GPAddon.getInstance().cache();
+	}
+
 }

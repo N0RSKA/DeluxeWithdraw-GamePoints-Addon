@@ -97,4 +97,9 @@ public class GPInterface implements DWAddonInterface {
 		GPAddon.getInstance().cache();
 	}
 
+	@Override
+	public Boolean useInt() {
+		return true;
+	}
+
 }

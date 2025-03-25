@@ -1,8 +1,8 @@
-package dev.norska.dwaddon.gp.ndev.handlers;
+package dev.norska.dwaddon.ce.ndev.handlers;
 
 import java.util.List;
 
-import dev.norska.dwaddon.gp.GPAddon;
+import dev.norska.dwaddon.ce.CEAddon;
 import lombok.Getter;
 
 public class CacheHandler {
@@ -12,7 +12,7 @@ public class CacheHandler {
 	@Getter Double minWithdraw, maxWithdraw;
 	@Getter int currencyFormat;
 
-	public void cache(GPAddon main) {
+	public void cache(CEAddon main) {
 
 		commands = main.getNHandler().getConfigurationHandler().getConfigFile().getStringList("settings.commands");
 		creatorForAdminItems = main.getNHandler().getConfigurationHandler().getConfigFile().getString("settings.creatorForAdminItems");

@@ -1,7 +1,7 @@
-name: DeluxeWithdrawGamePointsAddon
-main: dev.norska.dwaddon.gp.GPAddon
-version: Build 2a
+name: DWA-CoinsEngine
+main: dev.norska.dwaddon.ce.CEAddon
+version: Build 2025.03
 author: Norska
 website: "https://norska.dev"
 api-version: 1.13
-depend: [DeluxeWithdraw, GamePoints]
+depend: [DeluxeWithdraw, CoinsEngine]

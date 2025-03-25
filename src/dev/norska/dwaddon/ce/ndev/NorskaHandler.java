@@ -1,7 +1,7 @@
-package dev.norska.dwaddon.gp.ndev;
+package dev.norska.dwaddon.ce.ndev;
 
-import dev.norska.dwaddon.gp.ndev.handlers.CacheHandler;
-import dev.norska.dwaddon.gp.ndev.handlers.ConfigHandler;
+import dev.norska.dwaddon.ce.ndev.handlers.CacheHandler;
+import dev.norska.dwaddon.ce.ndev.handlers.ConfigHandler;
 import lombok.Getter;
 
 public class NorskaHandler {

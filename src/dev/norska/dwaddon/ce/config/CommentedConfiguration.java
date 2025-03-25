@@ -15,7 +15,7 @@
  *
  *******************************************************************************/
 
-package dev.norska.dwaddon.gp.config;
+package dev.norska.dwaddon.ce.config;
 
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.ConfigurationSection;
